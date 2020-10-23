@@ -12,7 +12,7 @@ AFloatingSphereActor::AFloatingSphereActor()
 	VisualMesh->SetupAttachment(RootComponent);
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>
-		CubeVisualAsset(TEXT("/Game/Content/Shapes/Sphere.uasset"));
+		CubeVisualAsset(TEXT("StaticMesh'/Game/Shapes/Sphere.Sphere'"));
 
 	if (CubeVisualAsset.Succeeded())
 	{
